@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml version="1.0">
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419370227" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 40 1F 00 00 3C 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419410675" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="01 88 13 E2 84 38 21 4E"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419402227" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 00 01 00 00 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419401971" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="01 04 00 00 00 00 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419402739" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="01 31 20 20 20 20 20 20"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419369203" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 00 00 00 00 10 27"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419369459" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 A0 8C 00 00 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419410931" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="01 6E 6E 6E 6E 6E 6E 6E"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="217056256" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 00 08 00 00 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="418383107" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 00 80 00 00 44 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="418119639" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="A0 86 01 00 00 00 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="418335215" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="51 01 10 0A 07 00 64 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="419361047" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 64 00 00 00 00 00"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="403701999" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="11 01 6E 00 10 27 98 3A"/>
+	<TaskObj Frames="1" Interval="10" Times="1" IdIncrease="0" DataIncrease="0" ID="403767535" SendType="0" RemoteFlag="0" ExternFlag="1" DataLen="8" Data="00 00 50 00 40 9C 30 75"/>
+</xml>

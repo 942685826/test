@@ -1,0 +1,673 @@
+<?xml version="1.0"?>
+<MsgSigs>
+<MsgSig>
+	<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x5B50;&#x7CFB;&#x7EDF;&#x6570; &#x5355;&#x4F53;&#x7535;&#x6C60;&#x603B;&#x6570;</Description>
+	<Key>in0</Key>
+	<ByteString0>18FF90F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x5B50;&#x7CFB;&#x7EDF;&#x6570;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,1,0,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5355;&#x4F53;&#x7535;&#x6C60;&#x603B;&#x6570;</Description>
+			<Key>sig1</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,8,16</Equation>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x7CFB;&#x7EDF;&#x7F16;&#x7801;</Description>
+	<Key>in1</Key>
+	<ByteString0>18FF93F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x7CFB;&#x7EDF;&#x7F16;&#x7801;&#x957F;&#x5EA6;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,0,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x7CFB;&#x7EDF;&#x7F16;&#x7801;</Description>
+			<Key>sig1</Key>
+			<ValueType>4</ValueType>
+			<Equation>B2 Length: 7 |1,6</Equation>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x603B;&#x7535;&#x538B;</Description>
+	<Key>in2</Key>
+	<ByteString0>18FF10F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x603B;&#x7535;&#x538B;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.02+0|0,0,48,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x603B;&#x7535;&#x6D41;</Description>
+	<Key>in3</Key>
+	<ByteString0>18FF11F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x603B;&#x7535;&#x6D41;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.0125-400|0,0,16,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>SOC &#x7EDD;&#x7F18;&#x7535;&#x963B;</Description>
+	<Key>in4</Key>
+	<ByteString0>18FF14F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>SOC</Description>
+			<Key>sig1</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.0025+0|0,0,8,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x7EDD;&#x7F18;&#x7535;&#x963B;</Description>
+			<Key>sig2</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*8+0|0,0,40,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<StepSize>8</StepSize>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x5B50;&#x7CFB;&#x7EDF;&#x53F7;</Description>
+	<Key>in5</Key>
+	<ByteString0>18FF91F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x53EF;&#x5145;&#x7535;&#x50A8;&#x80FD;&#x5B50;&#x7CFB;&#x7EDF;&#x53F7;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,24,8</Equation>
+			<UpperRange>250</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x5355;&#x4F53;&#x7535;&#x538B;</Description>
+	<Key>in7</Key>
+	<ByteString0>18FFB2F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x5355;&#x4F53;&#x7535;&#x538B;4n-3</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.001+0|0,0,8,14</Equation>
+			<Format>0.0</Format>
+			<UpperRange>16383</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5355;&#x4F53;&#x7535;&#x538B;4n-2</Description>
+			<Key>sig1</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.001+0|0,0,22,14</Equation>
+			<Format>0.0</Format>
+			<UpperRange>16.383</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5305;&#x5E8F;&#x53F7;n</Description>
+			<Key>sig2</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,0,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5355;&#x4F53;&#x7535;&#x538B;4n-1</Description>
+			<Key>sig3</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.001+0|0,0,36,14</Equation>
+			<Format>0.0</Format>
+			<UpperRange>16.383</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5355;&#x4F53;&#x7535;&#x538B;4n</Description>
+			<Key>sig4</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.001+0|0,0,50,14</Equation>
+			<Format>0.0</Format>
+			<UpperRange>16383</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x8F66;&#x8F86;&#x72B6;&#x6001;</Description>
+	<Key>in8</Key>
+	<ByteString0>18EF49EF</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x8F66;&#x8F86;&#x72B6;&#x6001;</Description>
+			<Key>sig0</Key>
+			<ValueType>3</ValueType>
+			<Equation>&#x7184;&#x706B;&#x72B6;&#x6001;@0|&#x542F;&#x52A8;&#x72B6;&#x6001;@1~0,0,4,2</Equation>
+			<StateTable>
+				<NumStates>2</NumStates>
+				<State>
+					<Text>&#x7184;&#x706B;&#x72B6;&#x6001;</Text>
+					<Value>0</Value>
+				</State>
+				<State>
+					<Text>&#x542F;&#x52A8;&#x72B6;&#x6001;</Text>
+					<Value>1</Value>
+				</State>
+			</StateTable>
+			<UpperRange>1</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5145;&#x7535;&#x72B6;&#x6001;</Description>
+			<Key>sig1</Key>
+			<ValueType>3</ValueType>
+			<Equation>&#x672A;&#x5145;&#x7535;@0|&#x884C;&#x8F66;&#x5145;&#x7535;@1|&#x505C;&#x8F66;&#x5145;&#x7535;@2~0,0,8,4</Equation>
+			<StateTable>
+				<NumStates>3</NumStates>
+				<State>
+					<Text>&#x672A;&#x5145;&#x7535;</Text>
+					<Value>0</Value>
+				</State>
+				<State>
+					<Text>&#x884C;&#x8F66;&#x5145;&#x7535;</Text>
+					<Value>1</Value>
+				</State>
+				<State>
+					<Text>&#x505C;&#x8F66;&#x5145;&#x7535;</Text>
+					<Value>2</Value>
+				</State>
+			</StateTable>
+			<UpperRange>2</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x8FD0;&#x884C;&#x6A21;&#x5F0F;</Description>
+			<Key>sig2</Key>
+			<ValueType>3</ValueType>
+			<Equation>&#x7EAF;&#x7535;@1|&#x6DF7;&#x52A8;@2|&#x71C3;&#x6CB9;@3~0,0,0,4</Equation>
+			<StateTable>
+				<NumStates>3</NumStates>
+				<State>
+					<Text>&#x7EAF;&#x7535;</Text>
+					<Value>1</Value>
+				</State>
+				<State>
+					<Text>&#x6DF7;&#x52A8;</Text>
+					<Value>2</Value>
+				</State>
+				<State>
+					<Text>&#x71C3;&#x6CB9;</Text>
+					<Value>3</Value>
+				</State>
+			</StateTable>
+			<UpperRange>3</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x52A0;&#x901F;&#x8E0F;&#x677F;&#x884C;&#x7A0B;&#x503C;</Description>
+			<Key>sig3</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.4+0|0,0,24,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x5236;&#x52A8;&#x8E0F;&#x677F;&#x72B6;&#x6001;</Description>
+			<Key>sig4</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.4+0|0,1,32,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>DC-DC&#x72B6;&#x6001;</Description>
+			<Key>sig5</Key>
+			<ValueType>3</ValueType>
+			<Equation>&#x672A;&#x5DE5;&#x4F5C;@0|&#x5DE5;&#x4F5C;@1~0,0,20,2</Equation>
+			<StateTable>
+				<NumStates>2</NumStates>
+				<State>
+					<Text>&#x672A;&#x5DE5;&#x4F5C;</Text>
+					<Value>0</Value>
+				</State>
+				<State>
+					<Text>&#x5DE5;&#x4F5C;</Text>
+					<Value>1</Value>
+				</State>
+			</StateTable>
+			<UpperRange>1</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x53D1;&#x52A8;&#x673A;&#x72B6;&#x6001;</Description>
+			<Key>sig6</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,6,2</Equation>
+			<UpperRange>3</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x71C3;&#x6599;&#x6D88;&#x8017;&#x7387;</Description>
+			<Key>sig7</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.01+0|0,0,48,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x8F66;&#x901F;</Description>
+	<Key>in9</Key>
+	<ByteString0>18FEF117</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x8F66;&#x901F;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.00390625+0|0,0,8,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x7D2F;&#x8BA1;&#x91CC;&#x7A0B;</Description>
+	<Key>in10</Key>
+	<ByteString0>18EBFFD7</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x7D2F;&#x8BA1;&#x91CC;&#x7A0B;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.1+0|0,0,0,32</Equation>
+			<Format>0.0</Format>
+			<UpperRange>4294967295</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x6863;&#x4F4D;&#x4FE1;&#x606F;</Description>
+	<Key>in11</Key>
+	<ByteString0>18F00503</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x6863;&#x4F4D;&#x4FE1;&#x606F;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*1-125|0,0,24,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6863;&#x4F4D;&#x4FE1;&#x606F;1</Description>
+			<Key>sig1</Key>
+			<ValueType>3</ValueType>
+			<Equation>D&#x6863;@68|R&#x6863;@82|&#x5176;&#x4ED6;N&#x6863;@83~0,0,48,8</Equation>
+			<StateTable>
+				<NumStates>3</NumStates>
+				<State>
+					<Text>D&#x6863;</Text>
+					<Value>68</Value>
+				</State>
+				<State>
+					<Text>R&#x6863;</Text>
+					<Value>82</Value>
+				</State>
+				<State>
+					<Text>&#x5176;&#x4ED6;N&#x6863;</Text>
+					<Value>83</Value>
+				</State>
+			</StateTable>
+			<UpperRange>83</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;</Description>
+	<Key>in12</Key>
+	<ByteString0>181000EF</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x4E2A;&#x6570;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,0,4</Equation>
+			<UpperRange>15</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x5E8F;&#x53F7;</Description>
+			<Key>sig1</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,0,4,4</Equation>
+			<UpperRange>15</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x72B6;&#x6001;</Description>
+			<Key>sig2</Key>
+			<ValueType>3</ValueType>
+			<Equation>&#x8017;&#x7535;@1|&#x53D1;&#x7535;@2|&#x5173;&#x95ED;&#x72B6;&#x6001;@3|&#x51C6;&#x5907;&#x72B6;&#x6001;@4~0,0,8,8</Equation>
+			<StateTable>
+				<NumStates>4</NumStates>
+				<State>
+					<Text>&#x8017;&#x7535;</Text>
+					<Value>1</Value>
+				</State>
+				<State>
+					<Text>&#x53D1;&#x7535;</Text>
+					<Value>2</Value>
+				</State>
+				<State>
+					<Text>&#x5173;&#x95ED;&#x72B6;&#x6001;</Text>
+					<Value>3</Value>
+				</State>
+				<State>
+					<Text>&#x51C6;&#x5907;&#x72B6;&#x6001;</Text>
+					<Value>4</Value>
+				</State>
+			</StateTable>
+			<UpperRange>4</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x63A7;&#x5236;&#x5668;&#x6E29;&#x5EA6;</Description>
+			<Key>sig3</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*1-40|0,0,16,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x7535;&#x673A;&#x63A7;&#x5236;&#x5668;&#x8F93;&#x5165;&#x7535;&#x538B;</Description>
+			<Key>sig4</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.1+0|0,0,32,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x7535;&#x673A;&#x63A7;&#x5236;&#x5668;&#x76F4;&#x6D41;&#x6BCD;&#x7EBF;&#x7535;&#x6D41;</Description>
+			<Key>sig5</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.1-1000|0,0,48,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x8F6C;&#x901F;</Description>
+	<Key>in13</Key>
+	<ByteString0>181100EF</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x8F6C;&#x901F;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*1-20000|0,0,32,16</Equation>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x8F6C;&#x77E9;</Description>
+			<Key>sig1</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.1-2000|0,0,48,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x9A71;&#x52A8;&#x7535;&#x673A;&#x6E29;&#x5EA6;</Description>
+			<Key>sig2</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*1-40|0,0,16,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x66F2;&#x8F74;&#x8F6C;&#x901F;</Description>
+	<Key>in14</Key>
+	<ByteString0>CF00400</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net1</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x66F2;&#x8F74;&#x8F6C;&#x901F;</Description>
+			<Key>sig0</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.125+0|0,0,24,16</Equation>
+			<Format>0.0</Format>
+			<UpperRange>65535</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+<MsgSig>
+	<Description>&#x63A2;&#x9488;&#x6E29;&#x5EA6;</Description>
+	<Key>in15</Key>
+	<ByteString0>18FFB3F3</ByteString0>
+	<XtdFrame>True</XtdFrame>
+	<NetworkKey>net0</NetworkKey>
+	<ExpectedLength>8</ExpectedLength>
+	<PDUPosition></PDUPosition>
+	<MsgSignals>
+		<Signal>
+			<Description>&#x5305;&#x5E8F;&#x53F7;n</Description>
+			<Key>sig1</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}|0,1,0,8</Equation>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n-6</Description>
+			<Key>sig2</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,0,8,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n-5</Description>
+			<Key>sig3</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,0,16,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n-4</Description>
+			<Key>sig4</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,1,24,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n-3</Description>
+			<Key>sig5</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,0,32,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n-2</Description>
+			<Key>sig6</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,0,40,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n-1</Description>
+			<Key>sig7</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,0,48,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+		<Signal>
+			<Description>&#x6E29;&#x5EA6;7n</Description>
+			<Key>sig8</Key>
+			<ValueType>1</ValueType>
+			<Equation>{Raw Value}*0.5-50|0,0,56,8</Equation>
+			<Format>0.0</Format>
+			<UpperRange>255</UpperRange>
+			<LowerRange>0</LowerRange>
+			<EthernetPayloadType>4</EthernetPayloadType>
+		</Signal>
+	</MsgSignals>
+</MsgSig>
+</MsgSigs>
